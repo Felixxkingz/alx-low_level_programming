@@ -6,9 +6,10 @@
 *
 */
 int main(void)
-{ int q = 0;
+{ 
+	int a = 0;
 
-	for (; a < 10 ;a++)
+	for (; a < 10 ; a++)
 		putchar('0' + a);
 	putchar('\n');
 	return (0);

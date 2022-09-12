@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * #include <stdio.h>
- *
- * Return: alway returns 0
- *
- */
+* #include <stdio.h>
+*
+* Return: alway returns 0
+*
+*/
 int main(void)
 {
 	int a = 0;

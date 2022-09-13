@@ -20,7 +20,7 @@ void times_table(void)
 			n = col * row;
 			units = n % 10;
 			tens = (n - units) / 10;
-			if (col > 10)
+			if (col > 0)
 			{
 				_putchar(' ');
 				(tens <= 0) ? _putchar(' ') : _putchar(tens + '0');

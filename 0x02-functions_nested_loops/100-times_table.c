@@ -3,8 +3,6 @@
 /**
  * print_times_table - function
  * @n: parameter
- *
- * Return: end program
  */
 void print_times_table(int n)
 {

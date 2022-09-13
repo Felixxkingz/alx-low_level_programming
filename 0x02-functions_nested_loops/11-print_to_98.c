@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * print_to_98 - function
+ *
  * @n: parameter
  *
  * Return: natural numbers

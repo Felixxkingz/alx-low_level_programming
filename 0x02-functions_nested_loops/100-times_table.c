@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_times_table - function
- *
+ * 
  * @n: parameter
  *
  * Return: end program
@@ -10,44 +10,45 @@
  */
 void print_times_table(int n)
 {
-	int a, m, p;
-	int a, m, p;
+	int row;
+	int column;
+	int product;
 
 	if (n >= 0 && n <= 15)
 	{
-		for (m = 0; m <= n; m++)
+		for (row = 0; row <= n; row++)
 		{
-			for (a = 0; a <= n; a++)
+			for (column = 0; column <= n; column++)
 			{
-				p = m * a;
-				if (c == 0 && p < 10)
-				{
-					printf(",   %d", p);
-				}
-				else if (c == 0 && p < 100)
-				{
-					printf(",  %d", p);
-				}
-				else if (c == 0 && p < 1000)
-				{
-					printf(", %d", p);
-				}
-				else if (c == 0 && p >= 1000)
-				{
-					printf(",%d", p);
-				}
+				product = (row * column);
+				if (column == 0)
+
+					_putchar('0' + product);
 				else
 				{
-					printf(",%d", p);
+					_putchar(',');
+					_putchar(' ');
+					if (product <= 9)
+					{
+						_putchar(' ');
+						_putchar(' ');
+						_putchar('0' + product);
+					}
+					else if (product > 9 && product < 100)
+					{
+						_putchar(' ');
+						_putchar('0' + (product / 10));
+						_putchar('0' + (product % 10));
+					}
+					else if (product >= 100)
+					{
+						_putchar('0' + (product / 100));
+						_putchar('0' + ((product / 10) % 10));
+						_putchar('0' + (product % 10));
+					}
 				}
-				c = 0;
 			}
-			putchar(10);
-			c = 1;
+			_putchar('\n');
 		}
 	}
-	else
-	{
-	}
 }
-

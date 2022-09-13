@@ -3,7 +3,7 @@
  * main - check the code
  * @c: The character
  * int _islower(int c);
- *
+ * _islower - checks for lowercase character
  * Return: Always 0.
  */
 int _islower(int c)

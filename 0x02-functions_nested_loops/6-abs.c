@@ -2,8 +2,8 @@
 /**
  * _abs - function to get the absolute value
  *
- *
  * @n: parameter of the funtion
+ *
  * Return: the absolute value
  *
  */

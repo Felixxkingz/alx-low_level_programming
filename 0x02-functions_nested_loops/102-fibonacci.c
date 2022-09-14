@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- *
  * main - print fibonacci
  * Return: always 0
  *

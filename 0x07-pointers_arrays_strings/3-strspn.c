@@ -6,7 +6,6 @@
  * @accept: The prefix to be measured.
  *
  * Return: The number of bytes in s which
- * consist only of bytes from accept.
  */
 
 
